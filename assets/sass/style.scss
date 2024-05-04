@@ -1,0 +1,15 @@
+@use "base/container" as *;
+@use "base/typeograpyh" as *;
+@use "components/corusel" as *;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Cera Round Pro DEMO Regular";
+  scroll-behavior: smooth;
+  @media only screen and (max-width: 75em) {
+  }
+}
